@@ -5,7 +5,7 @@ import java.util.Arrays;
  */
 public class lastOccur {
 	
-	public static int binSearchEle(int arr[], int ele) {
+	public static int binSearchLastEle(int arr[], int ele) {
 
 		int low = 0;
 		int high = arr.length - 1;
@@ -38,7 +38,7 @@ public class lastOccur {
 		}
 		System.out.println("");
 
-		System.out.println("INDEX: " + binSearchEle(arr, 7));
+		System.out.println("INDEX: " + binSearchLastEle(arr, 7));
 	}
 
 }
