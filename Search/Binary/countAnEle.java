@@ -1,7 +1,8 @@
 import java.util.Arrays;
 
 /**
- * Basic Binary Search (Iterative) 
+ * Basic Binary Search (Iterative) to count occurences of an element
+ * O(2logN) = O(logN)
  */
 public class countAnEle {
 	

@@ -1,7 +1,9 @@
 import java.util.Arrays;
 
 /**
- * Basic Binary Search (Iterative) 
+ * Basic Binary Search (Iterative)
+ * finds last occurence of an element using binary search
+ * O(logN)
  */
 public class lastOccur {
 	

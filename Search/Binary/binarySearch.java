@@ -2,6 +2,7 @@ import java.util.Arrays;
 
 /**
  * Basic Binary Search (Iterative) 
+ * O(logN)
  */
 public class binarySearch {
 	
