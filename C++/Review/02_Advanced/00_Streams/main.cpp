@@ -32,6 +32,7 @@ int main() {
     // again write inputted data into the file using data1
     outfile << data1 << endl;
 
+    //*
     outfile.close();
 
     /******************************************/
@@ -41,11 +42,13 @@ int main() {
 
     cout << "Reading file: " << endl;
 
+    //Best while loop to read file character by character
     cout << endl << "Printing entire file: " << endl;
     while (infile >> data2) {
         cout << data2 << endl;
     }
     
+    //*
     infile.close();
 
     return 0;
