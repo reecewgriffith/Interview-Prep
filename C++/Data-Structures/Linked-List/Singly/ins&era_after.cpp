@@ -9,6 +9,8 @@ int main() {
     forward_list<int> flist = {10, 25, 77, 102};
     forward_list<int>::iterator it;
 
+    //before_begin is location before first elem
+    //begin() is location of first element
     it = flist.insert_after(flist.before_begin(), 99);
     
     //cant do because removes iterator
