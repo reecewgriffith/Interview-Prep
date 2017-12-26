@@ -1,3 +1,5 @@
+//O(n) time and space
+
 #include <iostream>
 
 using namespace std;
